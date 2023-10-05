@@ -1,7 +1,15 @@
+import Logo from "../../components/Logo/Logo";
+import Navbar from "../../components/Navbar/Navbar";
+import SearchBox from "../../components/Searchbox/SearchBox";
+
 const Home = () => {
   return (
     <div>
-      <h2 className="text-3xl">This is home</h2>
+      {/* <div className="flex justify-between items-center">
+        <Logo></Logo>
+        <SearchBox></SearchBox>
+        <Navbar></Navbar>
+      </div> */}
     </div>
   );
 };
